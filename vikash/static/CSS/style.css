@@ -44,7 +44,6 @@ p.lead {
 .subheading {
     text-transform: uppercase;
     font-weight: 500;
-    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     font-size: 1.5rem
 }
 
@@ -66,7 +65,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-    background-color: #bd5d38
+    background-color: #bd5d38!important
 }
 
 .dev-icons {
@@ -74,7 +73,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-    color: #bd5d38
+    color: #bd5d38!important
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -166,7 +165,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .text-primary {
-    color: #bd5d38!important
+    color: #bd5d38
 }
 
 a {
