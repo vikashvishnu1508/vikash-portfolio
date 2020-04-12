@@ -25,7 +25,7 @@ SECRET_KEY = 'o#i1^w)61kz6d_fzqcifir3%dsh6*=qf7h01*ysrw)l6^5j#2#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['vikashvishnu.pythonanywhere.com']
 
 
 # Application definition
@@ -123,3 +123,5 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'vikash-portfolio', 'static')
