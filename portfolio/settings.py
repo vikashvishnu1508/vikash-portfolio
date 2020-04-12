@@ -26,10 +26,14 @@ SECRET_KEY = 'o#i1^w)61kz6d_fzqcifir3%dsh6*=qf7h01*ysrw)l6^5j#2#'
 DEBUG = True
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ALLOWED_HOSTS = ['vikashvishnu.pythonanywhere.com']
 =======
 ALLOWED_HOSTS = ['vikashvishnu.pythonanywhere.com', '127.0.0.1']
 >>>>>>> cd8279a1ea9106c0020382b5ed6a46813a84f4e2
+=======
+ALLOWED_HOSTS = ['vikashvishnu.pythonanywhere.com']
+>>>>>>> c4d97619a8ee74ba59d5e23575e301f591d92a15
 
 
 # Application definition
